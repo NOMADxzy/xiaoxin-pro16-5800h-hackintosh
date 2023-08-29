@@ -4,7 +4,7 @@
 
 This EFI aims to work with `macOS bigsur` now. Stay tuned :)
 
-已在efi中禁用一个usb口，可直接品尝
+## Detail
 
 |Properties| Detail                       | Works? |
 |---|------------------------------|--|
@@ -18,6 +18,19 @@ This EFI aims to work with `macOS bigsur` now. Stay tuned :)
 |Camera (HID)| FaceTime                     |YES|
 |Bluetooth| AX200 WiFi6                  |YES|
 |Battery|                              |NO(not showing the percentage, investigating, https://github.com/1Revenger1/ECEnabler/issues/25)|
+
+
+## Problem
+- 浏览器关闭硬件加速，不然卡死
+- 功耗较高，续航最多两小时
+- 睡眠不正常，盒盖持续发热
+- 看视频用safari 或者 google浏览器，不然容易卡
+- Jetbrain、applestore、applemusic等小卡顿
+
+## Performance
+
+![](geek5.png)
+![](geek6.png)
 
 
 ## Credits
